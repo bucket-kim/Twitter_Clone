@@ -1,0 +1,87 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: black;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 8px;
+}
+
+.user-profile {
+  background-color: white;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+.user-name-container {
+  margin-left: 12px;
+}
+
+.user-fullname {
+  color: white;
+  font-size: 18px;
+}
+
+.user-username {
+  color: #818a92;
+  font-size: 14px;
+}
+
+.user-image-container {
+  margin: 20px;
+  height: 300px;
+  border: black 1px solid;
+  border-radius: 16px;
+}
+
+.user-text-container, .user-date-container {
+  margin: 24px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar-window {
+  max-width: 360px;
+  min-width: 200px;
+  height: 760px;
+  margin-top: 40px;
+  margin-right: 16px;
+  background-color: #f6f9fa;
+  border-radius: 20px;
+  border: 1px solid #979797;
+}
+
+.sidebar-trending {
+}
+
+.sidebar-trending h4{
+  font-size: 22px;
+  color: rgb(15, 20 , 25);
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid #d8d8d8;
+
+}
+
+.sidebar-trending ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-trending ul li {
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d8d8d8;
+  padding-left: 15px;
+  cursor: pointer;
+}

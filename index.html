@@ -7,32 +7,76 @@
   <title>Title</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="tweet.css">
   <script src="https://kit.fontawesome.com/c939d0e917.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="container home-page">
     <div class="navigation-container">
-
-    </div>
+      <div class="navigation">
+        <div class="logo">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="home-link">
+          <i class="fas fa-home"></i>
+        </div>
+      </div>
+      <div class="profile-container">
+        <div class="profile">
+          <img src="img/profile.jpeg" alt="">
+        </div>
+      </div>
+      </div>
     <div class="main">
       <div class="main-search-container">
-
+        <i class="fas fa-search"></i>
+        <input id="search-input" type="text" placeholder="Search Twitter">
       </div>
       <div class="main-list">
         <div class="list-container">
+          <div class="user-info">
+            <div class="user-profile">
 
+            </div>
+            <div class="user-name-container">
+              <div class="user-fullname">
+                Brian Kim
+              </div>
+              <div class="user-username">
+                @MrBucket
+              </div>
+            </div>
+          </div>
+          <div class="user-image-container">
+            <div class="user-image">
+            </div>
+          </div>
+          <div class="user-text-container">
+            I'm text container. You know? I know~
+          </div>
+          <div class="user-date-container">
+            10 hours ago
+          </div>
         </div>
       </div>
     </div>
     <div class="sidebar-container">
       <div class="sidebar-window">
-        
+        <div class="sidebar-trending">
+          <h4>Trends for you</h4>
+          <ul>
+            <li>#Coding</li>
+            <li>#Dance</li>
+            <li>#Fashion</li>
+            <li>#Tesla</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-  <script src="js/index.js" async defer></script>
+  <script src="index.js" async defer></script>
 </body>
 
 </html>
